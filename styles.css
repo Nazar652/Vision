@@ -7,6 +7,8 @@ header {
     background-color: rgba(16, 19, 13, 1);
     display: flex;
     color: rgba(226, 226, 226, 1);
+    justify-content: space-between;
+    height: 90px;
 }
 
 .sub-header {
