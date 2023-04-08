@@ -17,3 +17,11 @@ header {
     align-items: center;
 }
 
+.header-items {
+    display: flex;
+
+}
+
+.nav-black {
+    padding: 10px;
+}
