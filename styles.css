@@ -1,0 +1,12 @@
+header {
+    background-color: rgba(16, 19, 13, 1);
+    display: flex;
+    color: rgba(226, 226, 226, 1);
+}
+
+.sub-header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
