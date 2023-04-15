@@ -26,15 +26,80 @@ header a {
 .header-items {
     display: flex;
     gap: 10px;
+    margin-right: 40px;
 }
 
 .nav-item {
     padding: 10px;
-    margin: 0 5px;
-
     font-weight: 700;
 
     color: #E2E2E2;
-
 }
 
+.nav-white {
+    padding: 33px 25px;
+    background-color: #FFFFFF;
+
+    font-family: 'Open Sans', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+
+    letter-spacing: 0.15em;
+
+    color: #000000;
+}
+
+.banner-photo {
+    display: block;
+    width: 100%;
+}
+
+.template-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 65px);
+    grid-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.template-grid > * {
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.article {
+    background: #10130D;
+
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.slogan {
+    grid-column: 1/10;
+
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.15em;
+
+    color: #E2E2E2;
+}
+
+.button {
+    grid-column: 10/13;
+
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.15em;
+
+    color: #10130D;
+    background-color: #FFF;
+    height: 90px;
+}
