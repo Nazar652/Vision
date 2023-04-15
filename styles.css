@@ -103,3 +103,22 @@ header a {
     background-color: #FFF;
     height: 90px;
 }
+
+.about-us {
+    background: linear-gradient(180deg, #FAFAFA -14.44%, #EEEEEE 107.89%);
+}
+
+.about-us-inner {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.about-us-inner.left {
+    grid-column: 1/7;
+}
+
+.about-us-inner.right {
+    grid-column: 7/13;
+}
+
