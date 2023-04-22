@@ -185,3 +185,40 @@ header a {
     grid-column: span 12;
 }
 
+.our-team-member {
+    grid-column: span 3;
+    position: relative;
+    height: 295px;
+    overflow: hidden;
+}
+
+.team-member-photo {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
+
+.team-member-desc {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+}
+
+.our-team-member:hover .team-member-photo {
+    top: -122px;
+    transition: 1s;
+}
+
+.desc {
+    text-align: left;
+    font-family: 'Raleway', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #000000;
+}
