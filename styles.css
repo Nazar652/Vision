@@ -116,9 +116,54 @@ header a {
 
 .about-us-inner.left {
     grid-column: 1/7;
+    text-align: left;
+    align-items: start;
 }
 
 .about-us-inner.right {
     grid-column: 7/13;
+    align-items: center;
 }
 
+.about-us-header {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+
+    letter-spacing: 0.05em;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #000000;
+    margin-top: 40px;
+}
+
+.content {
+    font-family: 'Raleway', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+
+    letter-spacing: 0.05em;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #474747;
+
+    margin: 11px 0;
+}
+
+.content span {
+    font-weight: 800;
+ }
+
+.big-circle {
+    width: 892px;
+    height: 892px;
+
+    background: #EAEAEA;
+    border-radius: 50%;
+    z-index: 10;
+    position: absolute;
+}
