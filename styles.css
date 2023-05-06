@@ -36,9 +36,43 @@ header a {
     color: #E2E2E2;
 }
 
+.nav-white-button {
+    position: relative;
+    overflow: hidden;
+    width: 265px;
+    height: 90px;
+}
+
+.nav-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 265px;
+    height: 90px;
+}
+
+.white-button {
+    transition: all 0.5s ease-in-out;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.grey-button {
+    background-color: #ccc;
+    z-index: 1;
+}
+
+.nav-white-button:hover .white-button {
+    transition: all 0.5s ease-in-out;
+    left: 265px
+}
+
 .nav-white {
+    position: absolute;
     padding: 33px 25px;
-    background-color: #FFFFFF;
+    top: 0;
+    left: 0;
+    z-index: 3;
 
     font-family: 'Open Sans', serif;
     font-style: normal;
@@ -245,3 +279,94 @@ header a {
     line-height: 22px;
 }
 
+.portfolio {
+    background-color: #10130D;
+}
+
+.portfolio-header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    letter-spacing: 0.05em;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #E2E2E2;
+
+    padding: 40px 0;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.portfolio-item {
+    border: 5px solid #10130D;
+    position: relative;
+}
+
+.portfolio-item img {
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.portfolio-desc {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.75) 100%);
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 40px;
+    transition: all 0.5s ease-in-out;
+}
+
+.name {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #E2E2E2;
+}
+
+.style {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #E2E2E2;
+}
+
+.button-watch {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.15em;
+    color: #10130D;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin-top: 70px;
+    padding: 32px 0;
+}
+
+.portfolio-item:hover .portfolio-desc {
+    transition: all 0.5s ease-in-out;
+    opacity: 1;
+}
