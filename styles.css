@@ -308,9 +308,6 @@ header a {
 
 .portfolio-item img {
     width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1;
 }
 .portfolio-desc {
     position: absolute;
@@ -328,29 +325,7 @@ header a {
     transition: all 0.5s ease-in-out;
 }
 
-.name {
-    font-family: 'Montserrat', serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 44px;
-    text-align: center;
-    letter-spacing: 0.05em;
-    font-feature-settings: 'pnum' on, 'lnum' on;
-    color: #E2E2E2;
-}
 
-.style {
-    font-family: 'Montserrat', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 27px;
-    text-align: center;
-    letter-spacing: 0.05em;
-    font-feature-settings: 'pnum' on, 'lnum' on;
-    color: #E2E2E2;
-}
 
 .button-watch {
     font-family: 'Montserrat', serif;
